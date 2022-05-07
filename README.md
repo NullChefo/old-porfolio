@@ -6,7 +6,7 @@ Uses React for the front end. It uses GitHub Action for CI/CD
 
 For the Projects tab it fetches data from the GitHub API to fill the cards with information 
 
-The url for the site is: https://kehayov-stefan.web.app/
+The url for the site is: https://kehayov-dev.web.app/
 # Images of the website
 
 ![1](./img/1.png)
