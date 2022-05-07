@@ -1,0 +1,14 @@
+.card {
+  align-self: center;
+}
+
+.forms {
+  align-self: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 30%;
+}
+
+/* 768 <  Braking point  */

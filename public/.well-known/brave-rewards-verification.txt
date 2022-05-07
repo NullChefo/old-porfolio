@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: stefan-kehayov.web.app 
+Token: cd9605d3d29cd6ef66f7745cae77ede6cfd191d98c7b5683ea6338f3718a3b14
