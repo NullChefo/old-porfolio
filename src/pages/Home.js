@@ -2,7 +2,7 @@ import React from "react";
 
 function Home() {
   return (
-    <div className="container">
+    <>
       <section className="site-banner">
         <div className="container1">
           <div className="row">
@@ -29,7 +29,7 @@ function Home() {
           </div>
         </div>
       </section>
-    </div>
+    </>
   );
 }
 

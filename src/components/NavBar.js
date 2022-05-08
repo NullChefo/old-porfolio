@@ -16,13 +16,14 @@ const NavBar = () => {
 
       <ul className="nav nav-pills">
 
-
         <li className="nav-item">   <Link to='/' className="nav-link" >Home</Link>   </li>
-        <li className="nav-item">   <a href="https://kehayov.net" className="nav-link" >New Portfolio </a>   </li>
         <li className="nav-item">   <Link to='/project' className="nav-link">Projects</Link>     </li>
         <li className="nav-item">    <Link to='/contacts' className="nav-link">Contact</Link>     </li>
         <li className="nav-item">    <Link to='/applications' className="nav-link">Applications</Link>     </li>
-         
+          <li className="nav-item">  <Link to='/experience' className="nav-link">Experience </Link>      </li>
+ 
+
+
       </ul>
     </header>
   </div>

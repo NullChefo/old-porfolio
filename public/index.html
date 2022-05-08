@@ -1,9 +1,8 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-   
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
 
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
@@ -31,10 +30,10 @@
   <meta name="author" content="Stefan Kehayov">
   <meta name="application-name" content="Stefan Kehayov's Personal Portfolio Website">
 
-    <link rel="apple-touch-icon" href="./logo192.png" />
-    <link rel="icon" href="./favicon.ico" />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+   
 
-    <link rel="manifest" href="./manifest.json" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
    
     <title>Portfolio Website</title>
   </head>
@@ -44,7 +43,33 @@
     <div id="root"></div>
  
 
+
+
+ <!-- The core Firebase JS SDK is always required and must be listed first -->
+ <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+
+ <!-- TODO: Add SDKs for Firebase products that you want to use
+      https://firebase.google.com/docs/web/setup#available-libraries -->
+ <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-analytics.js"></script>
  
+ <script>
+   // Your web app's Firebase configuration
+   // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  
+   var firebaseConfig = {
+     apiKey: "AIzaSyBjAGbAoEW07fSFG6mv_UdvSa60_a1ZlEA",
+     authDomain: "stefan-kehayov.firebaseapp.com",
+     projectId: "stefan-kehayov",
+     storageBucket: "stefan-kehayov.appspot.com",
+     messagingSenderId: "462192482238",
+     appId: "1:462192482238:web:187488cc8b590c3e834bef",
+     measurementId: "G-2Y5024F5H8"
+   };
+
+   // Initialize Firebase
+   firebase.initializeApp(firebaseConfig);
+   firebase.analytics();
+ </script>
 
   </body>
 
