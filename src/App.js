@@ -1,6 +1,6 @@
 import "./App.css";
 
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import {  Route , Routes } from "react-router-dom";
 import NavBar from "./components/NavBar";
 import Login from "./pages/userControl/Login";
 import Footer from "./components/Footer";
@@ -15,25 +15,34 @@ import Contacts from "./pages/Contacts";
 import Home from "./pages/Home";
 
 function App() {
+
   return (
     <>
-      <Router>
+
+      
         <div className="container">
           <NavBar />
-          <Route path="/" exact component={Home} />
+         
         </div>
 
         <div className="">
-          <Route path="/login" component={Login} />
-          <Route path="/register" component={Register} />
-          <Route path="/reset-password" component={ResetPassword} />
-          <Route path="/experience" component={Experience} />
-          <Route path="/project" component={Projects} />
-          <Route path="/contacts" component={Contacts} />
-          <Route path="/applications" component={Applications} />
+        <Routes>
+         <Route path="/" element={<Home />} />
+
+          <Route path="/login" element={<Login />} />
+          <Route path="/register" element={<Register />} />
+          <Route path="/reset-password" element={<ResetPassword />} />
+          <Route path="/experience" element={<Experience />} />
+          <Route path="/project" element={<Projects />} />
+          <Route path="/contacts" element={<Contacts />} />
+          <Route path="/applications" element={<Applications />} />
+          </Routes>
         </div>
-      </Router>
-      <Footer />
+
+        <Footer />
+      
+
+
     </>
   );
 }
