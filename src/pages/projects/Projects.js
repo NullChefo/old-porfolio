@@ -3,7 +3,7 @@ import Project from "./Project";
 import "./Project";
 
 function Projects() {
-  const url = "https://api.github.com/users/StefanKehayov/repos";
+  const url = "https://api.github.com/users/NullChefo/repos";
   const [repositories, setRepositories] = useState([]);
 
   useEffect(() => {
@@ -23,7 +23,7 @@ function Projects() {
     return data;
   };
 
-  // # TODO fetch from https://api.github.com/users/StefanKehayov/repos  all the public repositories
+  // # TODO fetch from https://api.github.com/users/NullChefo/repos  all the public repositories
 
   return (
     <>
